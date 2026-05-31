@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background: linear-gradient(
+        135deg,
+        #ff0018,
+        #ffa52c,
+        #ffff41,
+        #008018,
+        #0000f9,
+        #86007d
+    );
+    min-height:100vh;
+    padding:20px;
+}
+
+.hero{
+    text-align:center;
+    color:white;
+    padding:50px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:15px;
+    text-shadow:2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.hero p{
+    font-size:1.2rem;
+    max-width:800px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    max-width:900px;
+    margin:25px auto;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card h2{
+    color:#86007d;
+    margin-bottom:15px;
+}
+
+.card p{
+    line-height:1.8;
+    color:#333;
+}
+
+.valores{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    margin-top:20px;
+}
+
+.valor{
+    background:linear-gradient(
+        to right,
+        #ff0018,
+        #ffa52c,
+        #ffff41,
+        #008018,
+        #0000f9,
+        #86007d
+    );
+    color:white;
+    padding:15px 25px;
+    border-radius:30px;
+    font-weight:bold;
+    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+footer{
+    text-align:center;
+    color:white;
+    margin-top:30px;
+    padding:20px;
+    font-size:1.1rem;
+}
